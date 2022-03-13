@@ -1,0 +1,11 @@
+image:
+  file: .gitpod/Dockerfile
+
+tasks:
+  - command: "/usr/bin/zsh"
+
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
+    - bazelbuild.vscode-bazel
+    - hashicorp.terraform
